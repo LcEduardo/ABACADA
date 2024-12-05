@@ -37,6 +37,7 @@ header h1 {
     margin: 10px;
     text-align: center;
     font-size: 30px;
+    cursor: pointer;
 }
 
 #result {
@@ -81,6 +82,7 @@ section {
     margin: 10px;
     width: 120px;
     height: 90px;
+    cursor: pointer;
 }
 
 #delete {
