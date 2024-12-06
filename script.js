@@ -8,7 +8,7 @@ function ajustarConteudo() {
     const caixaTexo = document.getElementById("caixaTexto");
     const botaoDelete = document.getElementById("delete");
 
-    if (larguraTela < 431) {
+    if (larguraTela > 431) {
         section.insertBefore(caixaTexo, botaoDelete);
 
     }
