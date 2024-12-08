@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    padding: 2px;
+    padding: 5px;
     background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     display: flex;
     justify-content: center;
@@ -149,4 +149,52 @@ dialog{
         width: 80px;
         height: 85px;
     }
+}
+
+@media screen and (min-height: 1000px){
+
+    header {
+        padding: 20px;
+    }
+
+    #principal {
+        height: 100vh;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px 100px;
+        justify-items: center;
+        gap: 20px;
+        height: 100vh;
+        width: 850px;
+    }
+
+    .abcd {
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
+
+    #result {
+        height: 100vh;
+        width: 850px;
+    }
+
+    #caixaTexto input {
+        width: 620px;
+        height: 120px;
+    }
+
+    #btns {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .intera {
+        width: 200px;
+        height: 105px;
+    }
+
+    
 }
