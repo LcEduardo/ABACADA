@@ -142,7 +142,7 @@ dialog{
     }
 
     #result {
-        display: grid;
+        display: grid;  
     }
 
     #caixaTexto input {
