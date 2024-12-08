@@ -18,7 +18,12 @@ dialog{
 
     background-color: #039aff;
     border-radius: 8px;
-    padding: 20px;
+    padding: 60px;
+    text-align: center;
+    position: fixed; 
+    top: 40%; /* Top e o left a gente usa dps de ter inserido o position fixed ai a gente pode determinar em qual local da tela ele vai ficar exatamente tomando refencia o topo e a esquerda como faziamos no Android Studio sacou pae? */
+    left: 50%;
+    transform: translate(-50%, -50%); 
 
 }
 
