@@ -36,7 +36,7 @@ dialog{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    
     
 }
 
@@ -115,6 +115,10 @@ dialog{
         justify-content: center;
     }
 
+    #principal {
+        display: grid;
+    }
+
     header {
         display: none;
     }
@@ -122,12 +126,18 @@ dialog{
     #container {
         display: grid;
         grid-template-columns: 100px 100px 100px 100px;
+        justify-items: center;
+        width: 390px;
     }
 
     .abcd {
         width: 75px;
         height: 75px;
         font-size: 40px;
+    }
+
+    #result {
+        display: grid;
     }
 
     #caixaTexto input {
