@@ -15,14 +15,23 @@ ok.onclick = function () {
 // Colocando so botões para funcionar bb;
 
 // Seleciona todos os btns que da classe .abcd
-btns = document.querySelectorAll(".abcd");
-txtView = document.getElementById("txtView");
+const btns = document.querySelectorAll(".abcd");
+const txtView = document.getElementById("txtView");
+
+let char = [];
 
 // Especifica a mesma função para cada botão clicado
 btns.forEach(function(btn) {
     btn.addEventListener("click", function() {
+        char.push(`${btn.textContent}`);
+        let texto = "";
 
-        // textContent verifica o campo de texto do botão clicado
-        alert(`Clicou no botão: ${btn.textContent}`)
-    })
-})
+        for(const i in char){
+            
+            texto += char[i];
+            
+        }
+
+        alert(`${texto}`)
+    });
+});
