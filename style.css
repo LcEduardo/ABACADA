@@ -117,6 +117,29 @@ dialog{
 
 }
 
+#popcheck{
+
+    background-color:#1ac6ff;
+    color: black;
+    border-radius: 8px;
+    padding: 90px;
+    text-align: center;
+    position: fixed; 
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* A gente ta usando como referencia a esquerda ai a gente faz essa porra aqui, entendi mt não so copiei esse carai*/
+    font-size: 35px;
+
+}
+
+#fechar1{
+    background-color: #a33939;
+    padding: 15px;
+    border-radius:4PX;
+    color:white;
+
+}
+
 @media screen and (max-width: 768px) {
 
     body {
