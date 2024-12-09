@@ -41,10 +41,7 @@ dialog{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
 }
-
 
 #container {
     width: 600px;
@@ -77,16 +74,23 @@ dialog{
 #caixaTexto {
     display: flex;
     justify-content: center;
+    margin: 10px;
+    
 }
 
-#caixaTexto input {
-    margin: 3px;
+#txtView{
     width: 250px;
+    margin: 3px;
     height: 80px;
-    border-radius:12px;
     font-size:30px;
+    text-align: center;
     font-family: Arial;
+    border-radius:12px;
+    background-color:white;
+    border: 2px solid black;
+    
 }
+
 
 #btns {
     display: flex;
@@ -142,7 +146,7 @@ dialog{
     }
 
     #result {
-        display: grid;  
+        display: grid;
     }
 
     #caixaTexto input {

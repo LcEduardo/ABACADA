@@ -32,6 +32,7 @@ btns.forEach(function(btn) {
             
         }
 
-        alert(`${texto}`)
+        txtView.innerText = `${texto}`
+
     });
 });
