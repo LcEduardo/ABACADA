@@ -48,9 +48,9 @@ const txtView2 = document.getElementById("txtView2");
 
 botaocheck.onclick = function () {
     popcheck.showModal(); 
-    txtView2.innerHTML = `${char.join("")}`;
-
-};
+    txtView2.innerHTML = `
+        ${char.join("")} <br><br>
+         <img src="macaco.jpg" alt="lucas O macaco" style="width:120px; height:auto;"> `;}
 
 botaofechar2.onclick = function () {
     popcheck.close();
