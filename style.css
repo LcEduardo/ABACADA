@@ -88,6 +88,7 @@ dialog{
     border-radius:12px;
     background-color:white;
     border: 2px solid black;
+    overflow-wrap: break-word;
     
 }
 
@@ -127,7 +128,7 @@ dialog{
     position: fixed; 
     top: 40%; 
     left: 50%;
-    transform: translate(-50%, -50%); /* A gente ta usando como referencia a esquerda ai a gente faz essa porra aqui, entendi mt não so copiei esse carai*/
+    transform: translate(-50%, -50%); 
     font-size: 35px;
 
 }
@@ -135,6 +136,7 @@ dialog{
 #fechar1{
     background-color: #a33939;
     padding: 15px;
+    margin: 10px;
     border-radius:4PX;
     color:white;
 
